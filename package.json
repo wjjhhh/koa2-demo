@@ -20,6 +20,7 @@
   "dependencies": {
     "koa": "^2.4.1",
     "koa-bodyparser": "^4.2.0",
+    "koa-nunjucks-2": "^3.0.2",
     "koa-router": "^7.4.0"
   }
 }
