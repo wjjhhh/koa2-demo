@@ -1,0 +1,12 @@
+[2018-02-06T16:57:39.139] [ERROR] cheese - wjj has something wroing!
+[2018-02-06T16:57:39.142] [INFO] cheese - 响应时间为0.039s
+[2018-02-06T17:18:01.750] [ERROR] cheese - wjj has something wroing!
+[2018-02-06T17:18:01.754] [INFO] cheese - 响应时间为0.036s
+[2018-02-06T17:18:22.047] [ERROR] cheese - wjj has something wroing!
+[2018-02-06T17:18:22.051] [INFO] cheese - 响应时间为0.035s
+[2018-02-06T17:18:34.808] [ERROR] cheese - wjj has something wroing!
+[2018-02-06T17:18:34.809] [INFO] cheese - 响应时间为0.002s
+[2018-02-06T17:18:48.647] [ERROR] cheese - wjj has something wroing!
+[2018-02-06T17:18:48.652] [INFO] cheese - 响应时间为0.034s
+[2018-02-06T17:44:01.249] [ERROR] cheese - {"projectName":"koa2-demo","serverIp":"0.0.0.0","method":"GET","url":"/","host":"localhost:3000","message":"wjj has something wroing!","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36"}
+[2018-02-06T17:44:01.254] [INFO] cheese - {"projectName":"koa2-demo","serverIp":"0.0.0.0","method":"GET","url":"/","host":"localhost:3000","message":{"responseTime":"响应时间为0.04s"},"userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36"}
