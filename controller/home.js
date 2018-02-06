@@ -1,6 +1,7 @@
 /**
  * Created by Stone Cold on 2018/2/5.
  */
+const HomeService = require('../service/home')
 module.exports = {
   index: async (ctx, next) => {
     ctx.body = `<h1>homepage</h1>`
@@ -15,11 +16,12 @@ module.exports = {
   },
   register: async(ctx,next)=>{
     let {name, password} = ctx.request.body
-    if (name == 'jj很帅' && password == '123456') {
-      ctx.body = `hello,${name}`
-    }
-    else {
-      ctx.body = `用户${name}的密码${password}有误`
+    let res = await HomeService.register(name,password)
+    if(res.status == "-1"){
+      await ctx.render('home/login',res.data)
+    }else{
+      ctx.state.title = '个人中心'
+      await ctx.render('home/success',res.data)
     }
   }
 }
