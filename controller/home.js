@@ -7,7 +7,10 @@ module.exports = {
     ctx.body = `<h1>homepage</h1>`
   },
   home: async (ctx, next) => {
-    ctx.body = `<h1>homepage ${ctx.params.id} ${ctx.params.name}</h1>`
+    // ctx.body = `<h1>homepage ${ctx.params.id} ${ctx.params.name}</h1>`
+    ctx.send({
+      status: '200'
+    })
   },
   login: async (ctx, next) => {
     await ctx.render('home/login',{
